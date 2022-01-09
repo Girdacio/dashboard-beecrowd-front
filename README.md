@@ -1,10 +1,12 @@
-# DashboardBeecrowdFront
+# Dashboard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+<!--Ambiente DEV Amazon S3: [Dashboard](http://dashboard.s3-website-sa-east-1.amazonaws.com)-->
 
 ## Code scaffolding
 
@@ -25,3 +27,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Guia de referência socket.io [Socket IO Get Started](https://socket.io/get-started/private-messaging-part-1/#client-initialization)
