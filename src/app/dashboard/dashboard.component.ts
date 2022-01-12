@@ -3,21 +3,16 @@ import { Component, OnInit } from '@angular/core';
 export interface LinhaDashboard {
   nome: string;
   posicao: number;
-  problema_1: number;
+  problema_1: string;
   problema_2: string;
 }
 
 const ELEMENT_DATA: LinhaDashboard[] = [
-  {posicao: 1, nome: 'Hydrogen', problema_1: 1.0079, problema_2: 'H'},
-  {posicao: 2, nome: 'Helium', problema_1: 4.0026, problema_2: 'He'},
-  {posicao: 3, nome: 'Lithium', problema_1: 6.941, problema_2: 'Li'},
-  {posicao: 4, nome: 'Beryllium', problema_1: 9.0122, problema_2: 'Be'},
-  {posicao: 5, nome: 'Boron', problema_1: 10.811, problema_2: 'B'},
-  {posicao: 6, nome: 'Carbon', problema_1: 12.0107, problema_2: 'C'},
-  {posicao: 7, nome: 'Nitrogen', problema_1: 14.0067, problema_2: 'N'},
-  {posicao: 8, nome: 'Oxygen', problema_1: 15.9994, problema_2: 'O'},
-  {posicao: 9, nome: 'Fluorine', problema_1: 18.9984, problema_2: 'F'},
-  {posicao: 10, nome: 'Neon', problema_1: 20.1797, problema_2: 'Ne'},
+  {posicao: 1, nome: 'Girdácio', problema_1: '100º', problema_2: '12547º'},
+  {posicao: 2, nome: 'Gildenor', problema_1: '9º', problema_2: ''},
+  {posicao: 3, nome: 'Jessica', problema_1: '20º', problema_2: '37º'},
+  {posicao: 4, nome: 'Rosana', problema_1: '', problema_2: '1º'},
+  {posicao: 5, nome: 'Dalila', problema_1: '8º', problema_2: '10º'}
 ];
 
 @Component({
