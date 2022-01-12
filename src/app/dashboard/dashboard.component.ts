@@ -8,11 +8,11 @@ export interface LinhaDashboard {
 }
 
 const ELEMENT_DATA: LinhaDashboard[] = [
-  {posicao: 1, nome: 'Girdácio', problema_1: '100º', problema_2: '12547º'},
-  {posicao: 2, nome: 'Gildenor', problema_1: '9º', problema_2: ''},
-  {posicao: 3, nome: 'Jessica', problema_1: '20º', problema_2: '37º'},
-  {posicao: 4, nome: 'Rosana', problema_1: '', problema_2: '1º'},
-  {posicao: 5, nome: 'Dalila', problema_1: '8º', problema_2: '10º'}
+  {posicao: 1, nome: 'Girdácio', problema_1: '00100º', problema_2: '12547º'},
+  {posicao: 2, nome: 'Gildenor', problema_1: '00009º', problema_2: ''},
+  {posicao: 3, nome: 'Jessica', problema_1: '00020º', problema_2: '00037º'},
+  {posicao: 4, nome: 'Rosana', problema_1: '', problema_2: '00001º'},
+  {posicao: 5, nome: 'Dalila', problema_1: '00008º', problema_2: '00010º'}
 ];
 
 @Component({
